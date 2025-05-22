@@ -156,7 +156,7 @@ nav #navlinks span a{
 }
 
 #colIndex section {
-   padding: 0 20px;
+    padding: 0 20px;
 	width: 376px; height: auto;
 
 }
@@ -390,9 +390,14 @@ footer li {
 		flex-wrap: wrap;
 	}
 	#indexabout img {
-		padding-left: 5px;
+		display: none;
 	}
-
+	#indexabout {
+		flex-wrap: wrap;
+	}
+	#indexabout section{
+		width: 100%;
+	}
 
 
 }
