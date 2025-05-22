@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="icon" href="images/oistar_logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- ==================== NAVIGATION ==================== -->
+<nav> <!-- Nav menu to become sidebar in CSS and positioned to follow scroll  -->
+    <ul>
+        <div id="logolink">
+            <li><a href="index.html" title="Homepage"><img src="images/Screenshot 2025-05-05 013933.png" width="160" height="90"></a></li>
+        </div id="logolink">
+        <div id="navlinks">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><span><a>About Me</a></span></li>
+            <li><a href="games.html" title="Game Works">Game Works</a></li>
+            <li><a href="designs.html" title="Design Works">Design Works</a></li>
+            <li><a href="artworks.html" title="Artworks">Artworks</a></li>
+            <li><a href="contact.html" title="Contact &amp; Hiring">Contact &amp; Hiring</a></li>
+        </div id="navlinks">
+    </ul>
+</nav>
+
+
+<div id="wrapper">
+<!-- ==================== HEADER ==================== -->
+    <header>
+        <h1>Oscar Knorr Portfolio Oistar Games</h1> <!-- H1 here for SEO, will be replaced by logo in CSS for UI  -->
+        <img src="images/homebanner.png" alt="Banner Image" width="100%" height="auto">
+    </header>
+
+
+
+<!-- ==================== CONTENT AREA 1 ==================== -->
+    <article id="aboutmecontent">
+        <section> <!-- 2 sections here for each column -->
+            <h2>About Oscar Knorr</h2>
+                <p>Num quid tale Democritus? Hic nihil fuit, 
+                quod quaereremus. Sed ille, ut dixi, vitiose.
+                Quid est igitur, inquit, quod requiras? An potest cupiditas finiri?</p>
+        </section>
+
+        <section>
+            <img src="images/vertical_image.jpg" alt="Picture of Oscar Knorr" width="168" height="269">
+        </section>
+    </article>
+
+<!-- ==================== CONTENT AREA 2 ==================== -->
+    <article id="aboutvideo">
+        <section> <!-- section here is unnecessary but included as best practice for potential future changes -->
+            <h2>About My Works and Practice</h2>
+                <p>Num quid tale Democritus? Hic nihil fuit, 
+                quod quaereremus. Sed ille, ut dixi, vitiose.
+                Quid est igitur, inquit, quod requiras? An potest cupiditas finiri?</p>
+
+                <video width="320" height="240" controls> <!-- video placeholder taken from workshops, final site will have its own video -->
+                    <source src="images/vid_ohdear.mp4" type="video/mp4">
+                    <source src="images/vid_ohdear.ogv" type="video/ogv">
+                    <source src="images/vid_ohdear.webm" type="video/webm">
+                    <p>Your browser does not support HTML5 video</p>
+                    <!-- multiple file types here as fallbacks, first listed has highest priority
+                     may or may not embed file for final -->
+                </video>
+        </section>
+    </article>
+
+<!-- ==================== SMALL CONTACT AREA ==================== -->
+    <article id="smallcontact">
+        <section> <!-- section here is unnecessary but included as best practice for potential future changes -->
+                <p>Contact Me Via: <br>
+                    Phone Number <br>
+                    email at: <a href="mailto:oscarnotreal@gmail.com">oscarnotreal@gmail.com</a></p>
+                <a id="contactbutton" href="contact.html" title="Contact and Hiring">Learn More or Hire Me</a>
+        </section>
+    </article id="smallcontact">
+
+<!-- ==================== FOOTER ==================== -->
+    <footer>
+        <ul>
+            <li><p>&copy; Oscar Knorr</p></li> 
+            <li><p><a href="docs/sample_doc.pdf">Privacy Policy</a></p></li>   <!-- using doc provided in workshop folders as placeholder -->
+            <li><p>Website by Oscar Knorr</p></li>
+        </ul>
+    </footer>
+
+</div>
+</body>
+</html>

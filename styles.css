@@ -1,0 +1,414 @@
+/* Author: Jo Jung
+Date: Day Month Year
+Version: Week 09
+*/
+
+/*
+COLOURS
+#211d1c - dark brown (for text)
+#2f261d - brown
+#4389a2 - teal
+#c62d03 - burnt red
+#da4d11 - Orange (links)
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+body {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #f6ebe8;
+	margin: 0;
+	background-color: #253d49;
+	display: flex;
+}
+
+#wrapper {
+	position: relative;
+	width: 88%; 
+	padding: 0px 0px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+a {
+	color: #ff5f03; /* dark teal */
+	text-decoration: none;
+}
+
+a:visited {
+	color: #c62d03; /* burnt red */
+}
+
+
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+	color: #ffffff;	
+}
+	
+header h1 {
+	display: none;
+}
+
+header img {
+
+}
+
+
+/* NAVIGATION
+----------------------------------------
+*/
+nav {
+	background-color: #12262d;
+	position: sticky;
+	top: 0px; left: 0px;
+	width: 182px; /* = 1200px */
+	height: 695px;
+	padding-top: 0px;
+	z-index: 2;
+	display: block;
+}
+
+nav #navlinks a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	padding: 10px 20px 15px 20px;
+	display: flex;
+}
+
+nav #navlinks a:hover {
+	background-color: #da4d11;
+}
+
+nav #navlinks a:visited {
+	color: #ffffff;
+}
+
+nav ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 100%;
+	list-style: none;
+	margin: 0px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav #navlinks span a{
+    color: #ffffff;
+	background-color: #da4d11;
+}
+
+
+/* INDEX CONTENT 1
+----------------------------------------
+*/
+#indexabout {
+	padding: 20px 30px;
+	display: flex;
+	background-color: #253d49;
+}
+
+#indexabout img {
+	padding-left: 150px;
+}
+
+#indexabout #aboutbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+}
+
+/* INDEX CONTENT 2
+----------------------------------------
+*/
+#colIndex {
+    display: flex;
+	padding-top: 40px;
+	padding-bottom: 30px;
+    margin: 0 0;
+    text-align: center;
+	justify-content: center;
+	background-color: #255f74;
+}
+
+#colIndex section {
+    padding: 0 20px;
+	width: 376px; height: auto;
+
+}
+
+/* ABOUT ME CONTENT 1
+----------------------------------------
+*/
+
+#aboutmecontent {
+	padding-left: 30px;
+	display: flex;
+	
+}
+
+/* ABOUT ME CONTENT 1 (video)
+----------------------------------------
+*/
+
+#aboutvideo {
+	padding-left: 30px;
+	text-align: center;
+}
+
+/* GAME CONTENT 1
+----------------------------------------
+*/
+
+#gamecontent #gameabout section {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+#gamecontent #gameabout a {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+}
+
+#gamecontent #gamedark {
+	background-color: #255f74;
+	text-align: center;
+}
+
+#gamecontent #gamedark section {
+	padding: 20px 30px;
+}
+
+/* DESIGN CONTENT 1
+----------------------------------------
+*/
+
+#designcontent #designabout section {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+#designcontent #designabout a {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+}
+
+#designcontent #designdark {
+	background-color: #255f74;
+}
+
+#designcontent #designdark section {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+/* ARTWORK CONTENT 1
+----------------------------------------
+*/
+
+#artimages {
+	padding: 30px 30px 30px 30px;
+	justify-content: center;
+	display: flex;
+}
+
+#artimages section {
+	
+}
+
+#artimages img {
+	margin: 10px;
+}
+
+
+#artimages img:hover {
+	opacity: 10%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+
+.centered:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+/* CONTACT CONTENT 1
+----------------------------------------
+*/
+
+#contactcontent {
+	padding-left: 30px;
+	text-align: center;
+}
+
+/* CONTACT CONTENT 2
+----------------------------------------
+*/
+#contactbuttons {
+	padding-left: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+#contactbuttons section {
+	padding: 0px 50px;
+}
+
+#contactbuttons #linktreebutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+}
+
+#contactbuttons #cvbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+}
+
+/* SIDEBAR
+----------------------------------------
+*/
+aside {
+	background-color: #eee9d9;
+	display: flex;
+}
+
+aside h2 {
+	font-size: 1.2em;
+}
+
+aside img {
+	width: 70%; height: auto;
+}
+
+aside section {
+	padding: 25px;
+}
+
+
+/* SMALL CONTACT AREA
+----------------------------------------
+*/
+#smallcontact {
+	padding: 0px 30px;
+	background-color: #253d49;
+
+}
+
+#smallcontact #contactbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+}
+
+/* FOOTER
+----------------------------------------
+*/
+footer {
+	font-size: 0.8em;
+	background-color: #070707;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+footer li {
+	list-style: none;
+	padding: 10px 20px;
+}
+
+/* MEDIA QUERIES (Mobile)
+----------------------------------------
+*/
+
+@media (max-width: 767px) {
+	#wrapper {
+		width: 100%;
+	}
+	nav {
+		display: none;
+	}
+	#colIndex {
+		flex-wrap: wrap;
+	}
+	#indexabout img {
+		padding-left: 5px;
+	}
+
+
+
+}
+
+/* MEDIA QUERIES (Tablet/Ipad)
+----------------------------------------
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+}
+
+/* MEDIA QUERIES (Desktop)
+----------------------------------------
+*/
+
+@media (min-width: 1025px) and (max-width: 99999px) {
+	
+}
