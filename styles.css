@@ -398,6 +398,10 @@ footer li {
 	#indexabout section{
 		width: 100%;
 	}
+	footer li{
+		padding: 10px 10px;
+	}
+
 
 
 }
