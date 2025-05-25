@@ -426,10 +426,17 @@ footer {
 	background-color: #070707;
 }
 
+footer #aoc {
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 1.1em;
+}
+
 footer ul {
 	padding: 0px;
 	margin: 0px;
-	margin-top: 20px;
+	margin-top: 0px;
 	display: flex;
 	justify-content: center;
 }
@@ -458,6 +465,7 @@ footer li {
 	}
 	#indexabout {
 		flex-wrap: wrap;
+		margin-bottom: 20px;
 	}
 	#indexabout section{
 		width: 100%;
