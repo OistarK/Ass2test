@@ -356,7 +356,10 @@ header img {
 #contactcontent {
 	padding-left: 30px;
 	text-align: center;
+	padding-right: 30px;
 }
+
+
 
 /* CONTACT CONTENT 2
 ----------------------------------------
@@ -368,7 +371,7 @@ header img {
 }
 
 #contactbuttons section {
-	padding: 0px 50px;
+	padding: 0px 20px;
 }
 
 #contactbuttons #linkedinbutton {
