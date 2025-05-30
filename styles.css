@@ -237,16 +237,27 @@ header img {
 
 #aboutmecontent {
 	padding-left: 30px;
+	padding-right: 30px;
 	text-align: center;
 }
 
-/* ABOUT ME CONTENT 1 (video)
+/* ABOUT ME CONTENT 2 (video)
 ----------------------------------------
 */
 
 #aboutvideo {
 	padding-left: 30px;
+	padding-right: 30px;
 	text-align: center;
+}
+
+#aboutvideo #cvbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
 }
 
 /* GAME CONTENT 1
