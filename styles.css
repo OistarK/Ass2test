@@ -472,6 +472,7 @@ footer li {
 
 /* MEDIA QUERIES (Mobile)
 ----------------------------------------
+switches to head nav, removes some columns and scales elements accordingly
 */
 
 @media (max-width: 767px) {
@@ -527,6 +528,11 @@ footer li {
 
 /* MEDIA QUERIES (Tablet/Ipad)
 ----------------------------------------
+Did not have time to do but you can imagine its functionality as being a
+smaller scale desktop version with a side nav on both orientations, but a removal
+of columns on portrait mode for the idex page. This would be simple to do by
+removing flex display and scaling the elements down. orientation can be read by media
+queries as @ o/ms viewport or media queries.
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -535,6 +541,7 @@ footer li {
 	}
 	
 }
+
 
 /* MEDIA QUERIES (Desktop)
 ----------------------------------------
